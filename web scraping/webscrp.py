@@ -25,7 +25,7 @@ def jsonreturn(city):
     print(city)
     print(tempfinal)
 
-    #retorno
+    #retorno em json
     return jsonify(
     {'Api':
         {
